@@ -12,7 +12,7 @@ p {
   align-items: center;
   background: #000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 2px 30px;
 }
 
 /* Left side */
@@ -537,4 +537,59 @@ body.home header {
 body.home header a {
   color: #111111;
 }
+header {
+  background: #000;
+  color: #fff;
+  padding: 6px 20px;
+}
+/* ===============================
+   HOMEPAGE BLUE THEME
+   =============================== */
+
+body.home {
+  --accent: #0b5ed7;       /* clean editorial blue */
+  --accent-soft: #e7f0ff;  /* very light blue */
+}
+body.home header {
+  background: #ffffff;
+  color: #0f172a;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+body.home header h1 {
+  color: #0b5ed7;
+  font-weight: 700;
+}
+body.home .featured {
+  border-left: 6px solid var(--accent);
+}
+body.home h2 a:hover {
+  color: var(--accent);
+}
+body.home .section-divider {
+  background: var(--accent);
+  opacity: 0.15;
+}
+body.home article,
+body.home .featured {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-shadow: none;
+}
+body.home article {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+body.home .meta {
+  color: #475569;
+}
+/* Homepage: make site title blue */
+body.home header h1 a {
+  color: #4373bb !important;
+}
+body.home header h1 a:hover {
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+
 
