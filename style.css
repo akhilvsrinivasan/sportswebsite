@@ -520,4 +520,21 @@ article:hover {
 article img {
   border-radius: 10px;
 }
+/* ===============================
+   HOMEPAGE WHITE THEME
+   =============================== */
+
+/* ===============================
+   HOMEPAGE HEADER — WHITE
+   =============================== */
+
+body.home header {
+  background: #ffffff;
+  color: #111111;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+body.home header a {
+  color: #111111;
+}
 
